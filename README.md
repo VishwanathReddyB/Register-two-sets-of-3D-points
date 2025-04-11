@@ -30,7 +30,40 @@ Register-two-sets-of-3D-points/
 ├── test1.cpp             # Method 2: Translation-only registration
 └── test1.exe             # Compiled executable (Windows) - Method 2
 ```
+---
 
+## 🧠 Methods
+
+### 🔹 Method 1: SVD-Based Registration
+
+This method finds the best transformation (rotation + translation) that aligns one point set to another.
+
+**Steps:**
+1. Compute the centroids of both point sets.
+2. Center both sets by subtracting the centroids.
+3. Compute the **covariance matrix** `H`.
+4. Apply **Singular Value Decomposition (SVD)** on `H`.
+5. Compute the rotation matrix `R = V * Uᵀ`.
+6. Correct reflection (if needed).
+7. Compute the translation vector `t = centroid2 - R * centroid1`.
+8. Apply rotation and translation to all points in Set 1.
+
+📄 **File:** `test.cpp`
+
+---
+
+### 🔹 Method 2: Translation-Only Registration
+
+This simplified approach shifts Set 1 to match the position of Set 2 without rotating it.
+
+**Steps:**
+1. Compute the centroids of both point sets.
+2. Calculate the translation vector `t = centroid2 - centroid1`.
+3. Apply the translation to each point in Set 1.
+
+📄 **File:** `test1.cpp`
+
+---
 
 ---
 
