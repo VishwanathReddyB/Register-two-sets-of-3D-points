@@ -37,17 +37,20 @@ Register-two-sets-of-3D-points/
 ## Compilation Instructions
 
 ### Method 1: SVD-Based Registration (test.cpp)
+```
 g++ test.cpp -I eigen-3.4.0 -o test
 ./test
-
+```
 ### Method 2: Translation-Only Registration (test1.cpp)
+```
 g++ test1.cpp -I eigen-3.4.0 -o test1
 ./test1
-
+```
 ### On Windows (Command Prompt)
+```
 g++ test.cpp -I eigen-3.4.0 -o test.exe
 g++ test1.cpp -I eigen-3.4.0 -o test1.exe
-
+```
 ---
 
 ## Output Example
