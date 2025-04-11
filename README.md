@@ -17,19 +17,20 @@ This project demonstrates how to align two sets of 3D points using two different
 
 ---
 
-## Project Structure
 
+## 📁 Project Structure
+
+```
 Register-two-sets-of-3D-points/
-│
-├── .vscode/             # VSCode config (optional)
-├── eigen-3.4.0/         # Eigen library folder
-├── README.md            # Project documentation
-│
-├── test.cpp             # Method 1: SVD-based registration
-├── test.exe             # Compiled executable (Windows)
-│
-├── test1.cpp            # Method 2: Translation-only registration
-└── test1.exe            # Compiled executable (Windows)
+├── .vscode/              # VSCode configuration (optional)
+├── eigen-3.4.0/          # Eigen library folder
+├── README.md             # Project documentation
+├── test.cpp              # Method 1: SVD-based registration
+├── test.exe              # Compiled executable (Windows) - Method 1
+├── test1.cpp             # Method 2: Translation-only registration
+└── test1.exe             # Compiled executable (Windows) - Method 2
+```
+
 
 ---
 
