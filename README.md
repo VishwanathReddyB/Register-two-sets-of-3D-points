@@ -73,11 +73,13 @@ This simplified approach shifts Set 1 to match the position of Set 2 without rot
 
 
 ⚙️ **Compilation Instructions**
+
 🔧 Compile with g++
 Method 1: SVD-based (test.cpp)
 
 g++ test.cpp -I eigen-3.4.0 -o test
 ./test
+
 Method 2: Translation-only (test1.cpp)
 
 g++ test1.cpp -I eigen-3.4.0 -o test1
