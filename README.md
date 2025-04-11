@@ -54,7 +54,7 @@ g++ test1.cpp -I eigen-3.4.0 -o test1.exe
 ---
 
 ## 📈 Output Example
-
+```
 Average of Set 1: 4 5 6  
 Average of Set 2: 5 2 7  
 
@@ -75,7 +75,7 @@ Original Set 2:
 Point 0: 2 1 4  
 Point 1: 5 2 7  
 Point 2: 8 3 10
-
+```
 ---
 
 ## 🧪 Applications
@@ -94,6 +94,9 @@ Point 2: 8 3 10
 This project is provided for educational and demonstration purposes.
 
 ## ✍️ Author
+
 Submitted as part of a technical coding assignment
-Author: [Your Name]
+
+Author:Vishwanath Reddy B
+
 Date: April 2025
