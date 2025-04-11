@@ -34,7 +34,7 @@ Register-two-sets-of-3D-points/
 
 ---
 
-## Compilation Instructions
+## ⚙️ Compilation Instructions
 
 ### Method 1: SVD-Based Registration (test.cpp)
 ```
@@ -53,7 +53,7 @@ g++ test1.cpp -I eigen-3.4.0 -o test1.exe
 ```
 ---
 
-## Output Example
+## 📈 Output Example
 
 Average of Set 1: 4 5 6  
 Average of Set 2: 5 2 7  
@@ -78,7 +78,7 @@ Point 2: 8 3 10
 
 ---
 
-## Applications
+## 🧪 Applications
 
 - Aligning 3D scans from different angles  
 - Sensor calibration in robotics  
@@ -89,6 +89,11 @@ Point 2: 8 3 10
 
 
 
-## License
+## 🧾 License
 
 This project is provided for educational and demonstration purposes.
+
+## ✍️ Author
+Submitted as part of a technical coding assignment
+Author: [Your Name]
+Date: April 2025
