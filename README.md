@@ -63,7 +63,7 @@ It is fast but assumes both sets are already oriented similarly.
 
 - [Eigen](https://eigen.tuxfamily.org/) (for matrix operations)
 
-> ⚠️ Make sure you update the Eigen include path in your code as needed.
+
 
 ---
 
